@@ -1,0 +1,125 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+
+namespace LWIAY
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int eig = 250;
+            int fou = eig * 2;
+            int hal = fou * 2;
+            int ful = hal * 2;
+            int thr = ful / 3;
+            //PLAY melody
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.Clear();
+            Console.WriteLine("Press any key to start... :D");
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine("Leave");
+            Console.Beep(330, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your");
+            Console.Beep(330, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes");
+            Console.Beep(554, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on");
+            Console.Beep(554, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the");
+            Console.Beep(554, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit");
+            Console.Beep(554, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit");
+            Console.Beep(493, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nine");
+            Console.Beep(493, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen");
+            Console.Beep(493, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year");
+            Console.Beep(493, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.Beep(554, hal);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.Beep(493, eig);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.Beep(440, hal);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And");
+            Console.Beep(440, eig);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll");
+            Console.Beep(659, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure");
+            Console.Beep(659, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure your");
+            Console.Beep(440, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure your p");
+            Console.Beep(329, hal);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure your pps");
+            Console.Beep(440, thr);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure your pps in");
+            Console.Beep(440, eig);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure your pps in the");
+            Console.Beep(440, eig);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure your pps in the next");
+            Console.Beep(493, eig);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure your pps in the next epi");
+            Console.Beep(587, eig);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure your pps in the next episo");
+            Console.Beep(659, eig);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure your pps in the next episode");
+            Console.Beep(554, fou);
+            Console.Clear();
+            Console.WriteLine("Leave your memes on the reddit nineteen year olds");
+            Console.WriteLine("And I'll measure your pps in the next episode of");
+            Console.Beep(493, fou);
+            Console.WriteLine(@" _     _    _ _____  _____   __");
+            Console.WriteLine(@"| |   | |  | |_   _|/ _ \ \ / /");
+            Console.WriteLine(@"| |   | |  | | | | / /_\ \ V / ");
+            Console.WriteLine(@"| |   | |/\| | | | |  _  |\ /  ");
+            Console.WriteLine(@"| |___\  /\  /_| |_| | | || |  ");
+            Console.WriteLine(@"\_____/\/  \/ \___/\_| |_/\_/  ");
+            Console.Beep(440, ful);
+            Console.ReadKey();
+        }
+    }
+}
